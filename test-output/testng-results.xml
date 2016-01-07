@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="53645" started-at="2016-01-04T16:09:16Z" finished-at="2016-01-04T16:10:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="53645" started-at="2016-01-04T16:09:16Z" finished-at="2016-01-04T16:10:10Z">
+      <class name="testcase.FlightReservation">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="beforetest" is-config="true" duration-ms="31284" started-at="2016-01-04T21:39:17Z" finished-at="2016-01-04T21:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="test" duration-ms="5396" started-at="2016-01-04T21:39:48Z" data-provider="login" finished-at="2016-01-04T21:39:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sapient123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="test" duration-ms="2970" started-at="2016-01-04T21:39:53Z" data-provider="login" finished-at="2016-01-04T21:39:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikrant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sapient123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="searchFlightTest()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="searchFlightTest" duration-ms="1860" started-at="2016-01-04T21:39:56Z" depends-on-methods="testcase.FlightReservation.test" finished-at="2016-01-04T21:39:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightTest -->
+        <test-method status="PASS" signature="searchForFlightReservation(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="searchForFlightReservation" duration-ms="3992" started-at="2016-01-04T21:39:58Z" data-provider="searchDestination" depends-on-methods="testcase.FlightReservation.searchFlightTest" finished-at="2016-01-04T21:40:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForFlightReservation -->
+        <test-method status="PASS" signature="sortedPrice()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="sortedPrice" duration-ms="1410" started-at="2016-01-04T21:40:02Z" depends-on-methods="testcase.FlightReservation.searchForFlightReservation" finished-at="2016-01-04T21:40:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortedPrice -->
+        <test-method status="PASS" signature="validateSelectedFlight()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="validateSelectedFlight" duration-ms="2837" started-at="2016-01-04T21:40:04Z" depends-on-methods="testcase.FlightReservation.sortedPrice" finished-at="2016-01-04T21:40:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSelectedFlight -->
+        <test-method status="PASS" signature="bookFlight()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="bookFlight" duration-ms="3590" started-at="2016-01-04T21:40:06Z" depends-on-methods="testcase.FlightReservation.validateSelectedFlight" finished-at="2016-01-04T21:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlight -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testcase.FlightReservation@16eb2ec]" name="aftertest" is-config="true" duration-ms="6" started-at="2016-01-04T21:40:10Z" finished-at="2016-01-04T21:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testcase.FlightReservation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

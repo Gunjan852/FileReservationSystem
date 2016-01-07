@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40741" started-at="2016-01-07T22:01:38Z" finished-at="2016-01-07T22:02:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40741" started-at="2016-01-07T22:01:38Z" finished-at="2016-01-07T22:02:19Z">
+      <class name="testcase.FlightReservation">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="beforetest" is-config="true" duration-ms="23279" started-at="2016-01-07T22:01:38Z" finished-at="2016-01-07T22:02:01Z">
+        </test-method>
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@8dacdf]" name="test" duration-ms="3404" started-at="2016-01-07T22:02:01Z" finished-at="2016-01-07T22:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gunjan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sapient123]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@8dacdf]" name="test" duration-ms="2474" started-at="2016-01-07T22:02:05Z" finished-at="2016-01-07T22:02:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vikrant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sapient123]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="searchFlightTest()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="searchFlightTest" duration-ms="1809" started-at="2016-01-07T22:02:07Z" depends-on-methods="testcase.FlightReservation.test" finished-at="2016-01-07T22:02:09Z">
+        </test-method>
+        <test-method status="PASS" signature="searchForFlightReservation(java.lang.String, java.lang.String)[pri:0, instance:testcase.FlightReservation@8dacdf]" name="searchForFlightReservation" duration-ms="2932" started-at="2016-01-07T22:02:09Z" depends-on-methods="testcase.FlightReservation.searchFlightTest" finished-at="2016-01-07T22:02:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="sortedPrice()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="sortedPrice" duration-ms="1321" started-at="2016-01-07T22:02:12Z" depends-on-methods="testcase.FlightReservation.searchForFlightReservation" finished-at="2016-01-07T22:02:13Z">
+        </test-method>
+        <test-method status="PASS" signature="validateSelectedFlight()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="validateSelectedFlight" duration-ms="2882" started-at="2016-01-07T22:02:13Z" depends-on-methods="testcase.FlightReservation.sortedPrice" finished-at="2016-01-07T22:02:16Z">
+        </test-method>
+        <test-method status="PASS" signature="bookFlight()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="bookFlight" duration-ms="2602" started-at="2016-01-07T22:02:16Z" depends-on-methods="testcase.FlightReservation.validateSelectedFlight" finished-at="2016-01-07T22:02:19Z">
+        </test-method>
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:testcase.FlightReservation@8dacdf]" name="aftertest" is-config="true" duration-ms="0" started-at="2016-01-07T22:02:19Z" finished-at="2016-01-07T22:02:19Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

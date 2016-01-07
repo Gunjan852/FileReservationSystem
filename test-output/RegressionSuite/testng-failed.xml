@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]">
+  <parameter name="password" value="sapient123"/>
+  <parameter name="username" value="gunjan"/>
+  <test name="testMail(failed)">
+    <parameter name="password" value="sapient123"/>
+    <parameter name="username" value="gunjan"/>
+    <classes>
+      <class name="testcase.FlightReservation">
+        <methods>
+          <include name="aftertest"/>
+          <include name="beforetest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testcase.FlightReservation -->
+    </classes>
+  </test> <!-- testMail(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

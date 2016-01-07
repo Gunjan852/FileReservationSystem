@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testcase.FlightReservation">
+        <methods>
+          <include name="searchForFlightReservation"/>
+          <include name="validateSelectedFlight"/>
+          <include name="searchFlightTest"/>
+          <include name="sortedPrice"/>
+          <include name="aftertest"/>
+          <include name="bookFlight"/>
+          <include name="beforetest"/>
+          <include name="test"/>
+        </methods>
+      </class> <!-- testcase.FlightReservation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
